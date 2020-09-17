@@ -17,3 +17,8 @@ cmake
 -DGEANT4_USE_GDML=ON
 GEANT4_USE_QT=ON
 /path/to/geant4.10.06
+##########################
+#slackware
+##########################
+/usr/share/zoneinfo
+/etc/localtime
