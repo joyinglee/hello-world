@@ -22,3 +22,4 @@ GEANT4_USE_QT=ON
 ##########################
 /usr/share/zoneinfo
 /etc/localtime
+cat /etc/os-release
