@@ -8,6 +8,10 @@ sudo dphys-swapfile swapoff
 #CONF_SWAPSIZE=1024
 sudo dphys-swapfile setup
 sudo dphys-swapfile swapon
+#####################远程桌面
+screen
+＃Ctrl +a +d 退出
+x11vnc -forever -usepw -display :0
 ################################################
 ##GEANT 4
 ################################################
