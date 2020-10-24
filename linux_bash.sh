@@ -15,6 +15,7 @@ x11vnc -forever -usepw -display :0
 ################################################
 ##GEANT 4
 ################################################
+build-essential
 cmake 
 -DCMAKE_INSTALL_PREFIX=/absolute/path/to/geant4.10.06-install
 -DGEANT4_INSTALL_DATA=ON 
