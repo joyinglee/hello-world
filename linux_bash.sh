@@ -28,3 +28,10 @@ GEANT4_USE_QT=ON
 /usr/share/zoneinfo
 /etc/localtime
 cat /etc/os-release
+################################################
+#mariaDB
+################################################
+DROP USER 'root'@'localhost';
+CREATE USER 'root'@'%' IDENTIFIED BY '密码';
+GRANT ALL PRIVILEGES ON *.* TO 'root'@'%' WITH GRANT OPTION;
+FLUSH PRIVILEGES;
