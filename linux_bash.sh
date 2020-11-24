@@ -35,3 +35,8 @@ DROP USER 'root'@'localhost';
 CREATE USER 'root'@'%' IDENTIFIED BY '密码';
 GRANT ALL PRIVILEGES ON *.* TO 'root'@'%' WITH GRANT OPTION;
 FLUSH PRIVILEGES;
+################################################
+#Nextcloud
+################################################
+crontab -u www-data -e
+*/30  *  *  *  * php -f /var/www/html/pan/cron.php
