@@ -40,6 +40,7 @@ FLUSH PRIVILEGES;
 ################################################
 crontab -u www-data -e
 */30  *  *  *  * php -f /var/www/html/pan/cron.php
+php-zip php-dompdf php-xml php-curl php-mbstring php-mysql php-intl php-bcmath php-gmp php-imagick 
 ################################################
 #伪-内网穿透
 ################################################
@@ -48,7 +49,3 @@ ssh -fCNR 远程的内部端口:本地或内网地址:本地端口 用户@地址
 #远程运行，将远程的端口暴露出去
 ssh -fCNL *:远程的暴露端口:远程的本地地址:远程的内部端口 远程的本机地址
 #或者sshd_config加入GatewayPorts yes,只要第一条就可以了。
-#################################################
-#nextcloud
-#################################################
-php-zip php-dompdf php-xml php-curl php-mbstring php-mysql php-intl php-bcmath php-gmp php-imagick 
