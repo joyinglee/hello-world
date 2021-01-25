@@ -12,6 +12,7 @@ sudo dphys-swapfile swapon
 screen
 ＃Ctrl +a +d 退出
 x11vnc -forever -usepw -display :0
+program_usb_boot_mode=1
 ################################################
 ##GEANT 4
 ################################################
