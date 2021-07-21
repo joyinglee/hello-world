@@ -16,7 +16,7 @@ program_usb_boot_mode=1
 ################################################
 ##GEANT 4
 ################################################
-build-essential
+build-essential libexpat qtbase5-dev
 cmake 
 -DCMAKE_INSTALL_PREFIX=/absolute/path/to/geant4.10.06-install
 -DGEANT4_INSTALL_DATA=ON 
