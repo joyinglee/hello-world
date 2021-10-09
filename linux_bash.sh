@@ -13,6 +13,15 @@ screen
 ＃Ctrl +a +d 退出
 x11vnc -forever -usepw -display :0
 program_usb_boot_mode=1
+#####################原生远程
+#树莓派原生vnc改用通用的vnc协议而非realvnc的私有加密协议
+sudo vncpasswd -service
+sudo pico  /root/.vnc/config.d/vncserver-x11
+#添加
+SecurityTypes=VncAuth
+UserPasswdVerifier=VncAuth
+#启动代码
+sudo vncserver-x11-serviced
 ################################################
 ##GEANT 4
 ################################################
