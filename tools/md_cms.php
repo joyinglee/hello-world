@@ -1,3 +1,6 @@
+此文件在https://github.com/hajzer/minimal-php-markdown-cms的基础上修改，使用前请阅读原工作的协议许可！
+This File based on https://github.com/hajzer/minimal-php-markdown-cms, PLEASE READ IT'S LICENSE BEFORE USE!
+
 <DOCTYPE 鑫乐>
 <!--DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//SK" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"-->
 <!--html xmlns="http://www.w3.org/1999/xhtml"-->
