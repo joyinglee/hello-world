@@ -18,7 +18,7 @@ int main()
 	while(std::getline(file,tem_str))
 	contents = contents + tem_str + "\n";
 	file.close();
-	std::ofstream file2("test.txt",std::ios::trunc);
+	std::ofstream file2("shell.txt",std::ios::trunc);
 	file2 << contents;
 	file2.close();
 	std::cout << "中场休息，后面的指令为:" << std::endl
